@@ -68,24 +68,6 @@ $pageGoogle = [
     ],
 ];
 
-$listaTitoli = [];
-$listaParagrafi = [];
-$listaDivisa = [];
-
-foreach ($pageGoogle as $index => $section) {
-    $listaTitoli[] = $section['title'];
-    $listaParagrafi[] = $section['paragraph'];
-}
-
-foreach ($listaParagrafi as $paragrafo) {
-    foreach ($paragrafo as $paragrafoDiviso) {
-        $listaDivisa[] = $paragrafoDiviso;
-    }
-}
-
-
-
-var_dump($pageGoogle, $listaTitoli, $listaParagrafi, $listaDivisa);
 
 ?>
 
