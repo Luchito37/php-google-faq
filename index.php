@@ -80,19 +80,35 @@ $pageGoogle = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
-
-    <nav class="navbar bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
-            </a>
+    <div class="mx-5 my-5">
+        <nav class="navbar">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="./img/GOOGLE.png" alt="" width="300">
+                </a>
+            </div>
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="./img/MENU.png" alt="" width="20">
+                </a>
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+            </div>
+        </nav>
+        <div>
+            <ul class="list-unstyled  d-flex ">
+                <li class="px-3">Introduzione</li>
+                <li class="px-3">Norme sulla Privacy</li>
+                <li class="px-3">Termini di servizio</li>
+                <li class="px-3">Tecnologie</li>
+                <li class="px-3">Domande frequenti</li>
+            </ul>
         </div>
-    </nav>
-
+    </div>
     <div class="container">
         <?php foreach ($pageGoogle as $section) { ?>
             <div class="row">
